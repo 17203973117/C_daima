@@ -29,6 +29,17 @@
 // 3
 #include <stdio.h>
 #include <string.h>
+int count1(char* p)
+{
+    int i;
+    int count = 0;
+    for(i=0;i<strlen(p);i++)
+    {
+        count++;
+    }
+    return count;
+}
+
 int main()
 {
    char arr1[] = "gaDdaddwd";
@@ -37,5 +48,8 @@ int main()
    {
     printf("%c\n",arr1[i]);
    }
+   int m = count1(arr1);
+   printf("%d\n",m);
     return 0;
 }
+
