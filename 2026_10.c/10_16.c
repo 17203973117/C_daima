@@ -39,15 +39,26 @@
 // }
 
 // 4
+// #include <stdio.h>
+// int main()
+// {
+//     printf("%s\n","\123");
+//     printf("%c\n",'\123');
+
+//     printf("%c\n",'0');
+//     printf("%c\n",'\x30');
+
+//     printf("%c\n",97);
+//     return 0;
+// }
+
+//5
 #include <stdio.h>
 int main()
 {
-    printf("%s\n","\123");
-    printf("%c\n",'\123');
-
-    printf("%c\n",'0');
-    printf("%c\n",'\x30');
-
-    printf("%c\n",97);
+    char s[]="ajd\bhad";
+    printf("%s\n",s);
+    char s1[]="adjg\rfc";
+    printf("%s\n",s1);
     return 0;
 }
